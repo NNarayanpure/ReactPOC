@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  background-color: #ecf4ca;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container-main {
+  width: auto;
+  height: auto;
+  background-color: #e2f2a3;
+  border-radius: 0.5rem;
+  /* box-shadow: ; */
+}
+.div-card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 50px 0px 55px;
+}
+.box-signin {
+  margin: 10px 40px 10px 40px;
+}
+.textfield-email {
+  width: 40px;
+  height: 50px;
+}
+.btn-cancel-submit {
+  margin-top: 10px;
+}
+.div-dropdown-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .drpdwn-country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0%;
+} */
